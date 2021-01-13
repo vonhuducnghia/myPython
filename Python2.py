@@ -1,16 +1,5 @@
-# -*- coding: utf-8 -*-
-print('Võ Như Đức Nghĩa')
-
-# khai báo biến
-Tên= ('Võ Như Đức Nghĩa')
-Tuổi= 19
-Nghềnghiệp= ('Sinh viên')
-print(Tên)
-print(Tuổi)
-print(Nghềnghiệp)
-
-name, age, occupation = 'Nghĩa', 19, 'Sinh viên'
-print(name, age, occupation)
-
-type(age)
-print(type(name))
+i1 = eval(input("Give input: "))
+i2 = eval(input("Give input: "))
+r = i1 + i2
+print("%s + %s becomes %s\nwith value %s" % \
+(type(i1), type(i2), type(r), r))
