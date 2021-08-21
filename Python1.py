@@ -20,5 +20,3 @@ print(f)
 g= '%s %s'
 t= g %('c','cc')
 print(t)
-
-print('Welcome to Visual Studio Code')
