@@ -1,3 +1,4 @@
-a= '%s %s' %('Guten', 'Tag')
-print(a)
-print(type(a))
+x = input()
+x = int(x)
+y = x**2
+print(y)
